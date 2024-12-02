@@ -4,6 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var userModel = require('./models/user');
 const jwt = require('jsonwebtoken');
+const mongoose = require('mongoose')
 
 const bcrypt = require('bcrypt');
 const { log } = require('console');
